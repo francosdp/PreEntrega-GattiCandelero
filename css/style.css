@@ -77,3 +77,52 @@ form .btn:hover{
     color: #010400;
     background-color: #EADFB4;
 }
+/* Main */
+/* Fuentes
+font-family: "Lato", sans-serif;
+font-family: "STIX Two Text", serif;*/
+/* Paletas
+background-color:#dee4f3;
+background-color:#010400;
+background-color:#EADFB4; */
+
+main{background-color:#dee4f3;
+    width: 100%;
+}
+.banner-img img{
+    width: 100%;
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px 2px #51515195;
+    margin: 10px 0px;
+}
+.product-info p{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    margin-top: 0px 10px;
+}
+.product-info h3{
+    font-family: "STIX Two Text", serif;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.product-info button:hover{
+    font-weight: bolder;
+    background-color: #0104002a;
+}
+
+.product-info button{
+    background-color: rgba(0, 0, 0, 0.258);
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 2px #51515195;
+    margin-bottom: 10px;
+}
