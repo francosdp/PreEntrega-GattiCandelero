@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+/* Fuentes
+font-family: "Lato", sans-serif
+font-family: "STIX Two Text", serif */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Lato", sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+/* INDEX */
+/* Header */
+/* Fuentes
+font-family: "Lato", sans-serif;
+font-family: "STIX Two Text", serif;*/
+/* Paletas
+background-color:#dee4f3;
+background-color: #010400;
+background-color: #EADFB4; */
+
+.promo:hover{
+    background-color: #eadfb4bf;
+}
+.promo {
+    padding: 9px;
+    text-align: center;
+    background-color: #EADFB4;
+}
+
+.novedad:hover{font-weight: bolder;}
+.novedad {
+    text-decoration: none;
+    color: black;
+}
+.center-item {
+    background-color: #010400;
+    text-align: center;
+    color: transparent;
+    padding: 25px;
+}
+/* Navbar */
+.navbar {
+    padding: 0;
+}
+.navbar .container-fluid{
+    background-color: #7F95D1;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar-brand:hover{
+    font-size: 19.5px;
+    font-weight: bolder;
+}
+.nav-link:hover{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.dropdown-item:hover{
+    font-size: 16px;
+    font-weight: bolder;
+    box-shadow: -2px 1px 45px 66px rgba(127,149,209,0.65) inset;
+    -webkit-box-shadow: -2px 1px 45px 66px rgba(127,149,209,0.65) inset;
+    -moz-box-shadow: -2px 1px 45px 66px rgba(127,149,209,0.65) inset;}
+
+form .btn{
+    background-color:#dee4f3;
+    color: #010400;
+    font-family: "Lato", sans-serif;
+}
+form .btn:hover{
+    color: #010400;
+    background-color: #EADFB4;
+}
