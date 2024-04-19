@@ -8,7 +8,6 @@ font-family: "STIX Two Text", serif */
     padding: 0;
     margin: 0;
     font-family:"Lato", sans-serif;
-    font-size: 14px;
     box-sizing: border-box;
 }
 
@@ -21,7 +20,8 @@ font-family: "STIX Two Text", serif;*/
 /* Paletas
 background-color:#dee4f3;
 background-color: #010400;
-background-color: #EADFB4; */
+background-color: #EADFB4;
+background-color: #7F95D1; */
 
 .promo:hover{
     background-color: #eadfb4bf;
@@ -84,7 +84,8 @@ font-family: "STIX Two Text", serif;*/
 /* Paletas
 background-color:#dee4f3;
 background-color:#010400;
-background-color:#EADFB4; */
+background-color:#EADFB4;
+background-color: #7F95D1; */
 
 main{background-color:#dee4f3;
     width: 100%;
@@ -125,4 +126,83 @@ main{background-color:#dee4f3;
     border-radius: 15px;
     box-shadow: 1px 1px 5px 2px #51515195;
     margin-bottom: 10px;
+}
+/* Footer */
+/* Fuentes
+font-family: "Lato", sans-serif;
+font-family: "STIX Two Text", serif;*/
+/* Paletas
+background-color:#dee4f3;
+background-color:#010400;
+background-color:#EADFB4;
+background-color: #7F95D1;
+*/
+.eboutique{
+  background-color: #7F95D1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.eboutique h2{
+    text-align: center;
+    font-family: "STIX Two Text", serif;
+    color: white;
+    font-size: 50px;
+}
+.eboutique p{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7F95D1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.newsletter-title {
+    margin-left: 10px;
+}
+
+.newsletter-form {
+    margin-left: 10px;
+}
+
+.newsletter p {
+    font-size: small;
+    margin-left: 10px;
+}
+
+.newsletter p a {
+    color: #010400;
+    margin-left: 10px;
+}
+
+.social {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.social a .facebook {
+    width: 50px;
+    height: 45px;
+}
+
+.social a img {
+    width: 50px;
+    height: 48px;
+}
+
+.to-top {
+    background-color: #010400;
+    text-align: center;
+    padding: 15px;
+    font-size: large;
+}
+
+.to-top a {
+    color: white;
+    text-decoration: none;
 }
