@@ -230,7 +230,10 @@ background-color: #7F95D1;
 }
 
 .destacados-top {
-    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
     position: relative;
 }
 
@@ -246,9 +249,7 @@ background-color: #7F95D1;
 .destacados-overlay {
     text-align: center;
     position: absolute;
-    top: 380px;
-    left: 35%;
-    z-index: 1;
+    top: 350px;
 }
 
 .destacados-overlay h4 {
@@ -285,7 +286,6 @@ background-color: #7F95D1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .bottom-title {
@@ -310,7 +310,6 @@ background-color: #7F95D1;
     flex-direction: column;
     align-items: center;
     height: 60%;
-    width: 90%;
 }
 
 .bottom-products h3 {
@@ -327,6 +326,7 @@ background-color: #7F95D1;
     align-items: center;
     justify-content: space-between;
     height: 300px;
+    width: 1200px;
 }
 
 .products-display img {
