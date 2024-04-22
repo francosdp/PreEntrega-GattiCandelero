@@ -4,10 +4,10 @@ font-family: "Lato", sans-serif
 font-family: "STIX Two Text", serif */
 
 
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family:"Lato", sans-serif;
+    font-family: "Lato", sans-serif;
     box-sizing: border-box;
 }
 
@@ -23,26 +23,32 @@ background-color: #010400;
 background-color: #EADFB4;
 background-color: #7F95D1; */
 
-.promo:hover{
+.promo:hover {
     background-color: #eadfb4bf;
 }
+
 .promo {
     padding: 9px;
     text-align: center;
     background-color: #EADFB4;
 }
 
-.novedad:hover{font-weight: bolder;}
+.novedad:hover {
+    font-weight: bolder;
+}
+
 .novedad {
     text-decoration: none;
     color: black;
 }
+
 .center-item {
     background-color: #010400;
     text-align: center;
     color: transparent;
     padding: 25px;
 }
+
 /* Navbar */
 .navbar {
     padding: 0;
@@ -51,36 +57,43 @@ background-color: #7F95D1; */
     top: 0;
     z-index: 1;
 }
-.navbar .container-fluid{
+
+.navbar .container-fluid {
     background-color: #7F95D1;
     position: sticky;
     top: 0;
     z-index: 1;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     font-size: 19.5px;
     font-weight: bolder;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     font-size: 16px;
     font-weight: bolder;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     font-size: 16px;
     font-weight: bolder;
-    box-shadow: -2px 1px 45px 66px rgba(127,149,209,0.65) inset;
-    -webkit-box-shadow: -2px 1px 45px 66px rgba(127,149,209,0.65) inset;
-    -moz-box-shadow: -2px 1px 45px 66px rgba(127,149,209,0.65) inset;}
+    box-shadow: -2px 1px 45px 66px rgba(127, 149, 209, 0.65) inset;
+    -webkit-box-shadow: -2px 1px 45px 66px rgba(127, 149, 209, 0.65) inset;
+    -moz-box-shadow: -2px 1px 45px 66px rgba(127, 149, 209, 0.65) inset;
+}
 
-form .btn{
-    background-color:#dee4f3;
+form .btn {
+    background-color: #dee4f3;
     color: #010400;
     font-family: "Lato", sans-serif;
 }
-form .btn:hover{
+
+form .btn:hover {
     color: #010400;
     background-color: #EADFB4;
 }
+
 /* Main */
 /* Fuentes
 font-family: "Lato", sans-serif;
@@ -91,13 +104,16 @@ background-color:#010400;
 background-color:#EADFB4;
 background-color: #7F95D1; */
 
-main{background-color:#dee4f3;
+main {
+    background-color: #dee4f3;
     width: 100%;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
 }
-.product-info{
+
+.product-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,22 +121,25 @@ main{background-color:#dee4f3;
     box-shadow: 1px 1px 5px 2px #51515195;
     margin: 10px 0px;
 }
-.product-info p{
+
+.product-info p {
     font-family: "Lato", sans-serif;
     font-size: 18px;
     margin-top: 0px 10px;
 }
-.product-info h3{
+
+.product-info h3 {
     font-family: "STIX Two Text", serif;
     font-size: 26px;
     font-weight: lighter;
 }
-.product-info button:hover{
+
+.product-info button:hover {
     font-weight: bolder;
     background-color: #0104002a;
 }
 
-.product-info button{
+.product-info button {
     background-color: rgba(0, 0, 0, 0.258);
     padding-left: 25px;
     padding-top: 15px;
@@ -131,6 +150,7 @@ main{background-color:#dee4f3;
     box-shadow: 1px 1px 5px 2px #51515195;
     margin-bottom: 10px;
 }
+
 /* Footer */
 /* Fuentes
 font-family: "Lato", sans-serif;
@@ -141,23 +161,26 @@ background-color:#010400;
 background-color:#EADFB4;
 background-color: #7F95D1;
 */
-.eboutique{
-  background-color: #7F95D1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.eboutique {
+    background-color: #7F95D1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.eboutique h2{
+
+.eboutique h2 {
     text-align: center;
     font-family: "STIX Two Text", serif;
     color: white;
     font-size: 50px;
 }
-.eboutique p{
+
+.eboutique p {
     font-size: 20px;
     font-family: "Lato", sans-serif;
     font-weight: lighter;
 }
+
 .bottom {
     display: flex;
     justify-content: space-between;
@@ -263,9 +286,11 @@ background-color: #7F95D1;
     font-size: 30px;
     color: white;
 }
-.destacados-overlay button:hover{
+
+.destacados-overlay button:hover {
     font-weight: bolder;
 }
+
 .destacados-overlay button {
     font-family: "Lato", sans-serif;
     font-weight: lighter;
@@ -361,4 +386,82 @@ background-color: #7F95D1;
     ;
     box-shadow: 1px 1px 5px 2px #51515195;
     background-color: #eadfb44c
+}
+
+/* CONTACTO */
+/* Fuentes
+font-family: "Lato", sans-serif;
+font-family: "STIX Two Text", serif;*/
+/* Paletas
+background-color:#dee4f3;
+background-color:#010400;
+background-color:#EADFB4;
+background-color: #7F95D1;
+*/
+
+
+
+
+
+.contact-main {
+    padding-top: 60px;
+    background-color: #dee4f3;
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "contact-text contact-form";
+}
+
+.contact-text {
+    grid-area: contact-text;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.contact-us h3 {
+    padding-bottom: 10px;
+    font-family: "STIX Two Text", serif;
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: underline black;
+}
+
+.contact-us p {
+    padding-top: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+.contact-phone {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.contact-phone h4 {
+    padding-bottom: 10px;
+    font-family: "STIX Two Text", serif;
+    font-size: large;
+    text-decoration: underline black;
+}
+
+.contact-phone p {
+    font-family: "Lato", sans-serif;
+}
+
+.contact-phone a {
+    color: #010400;
+    font-family: "Lato", sans-serif;
+}
+
+
+.contact-form {
+    grid-area: contact-form;
 }
