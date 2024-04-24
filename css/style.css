@@ -953,6 +953,22 @@ background-color: #7F95D1;
         max-width: 280px;
     }
 }
+@media (max-width:878px){
+    .eboutique h2{
+        font-size: 25px;
+    }
+    .eboutique p {
+        font-size: 16px;
+    }
+    .bottom{
+        padding:0px;
+    }
+    .bottom h4 {
+        font-size: 16px;
+        
+    }
+
+}
 @media (max-width:1120px){
 .cremas-text h3{
     font-size: 25px;
