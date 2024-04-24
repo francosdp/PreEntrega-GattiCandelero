@@ -214,7 +214,10 @@ background-color: #7F95D1;
     text-align: right;
     margin-right: 10px;
 }
-
+.social a img:hover{
+    width: 55px;
+    height: 55px;
+}
 .social a .facebook {
     width: 50px;
     height: 45px;
@@ -378,11 +381,16 @@ background-color: #7F95D1;
     margin-top: 5px;
     font-family: "Lato", sans-serif;
     font-weight: normal;
+    width: 700px;
 }
+.products-display button:hover{
+    padding: 30px;
+    font-weight: bolder;
 
+}
 .products-display button {
     padding: 25px;
-    margin: 10px;
+    margin: 15px;
     text-align: center;
     border-style: dotted;
     border-radius: 5%;
@@ -959,6 +967,7 @@ background-color: #7F95D1;
     }
     .eboutique p {
         font-size: 16px;
+        font-weight: normal;
     }
     .bottom{
         padding:0px;
