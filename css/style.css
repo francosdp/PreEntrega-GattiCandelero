@@ -1086,3 +1086,104 @@ background-color: #7F95D1;
         width: auto;
     }
 }
+
+@media(max-width:1640px) {
+
+.perfumes-intro h3{
+    font-size: 20px ;
+    width: auto;
+}
+
+.first-row img{
+    height: 220px;
+}
+.perfumes-overlay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+}
+.perfumes-overlay h4{
+    font-size: 20px;
+}
+.perfumes-overlay button{
+    padding: 10px;
+    margin: 5px;
+}
+.perfumes-banners button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    font-size: 12px;
+
+}
+.primer-banner{
+    height: 450px;
+}
+.banner-uno{
+    height: 400px;
+}
+.banner-uno img{
+    height: 200px;
+}
+.banner-dividido{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.banner{ height: 400px;
+
+}
+.banner img{
+    width: 412px;
+    height: 340px;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .perfumes-grupal {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .perfumes-individual {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        width: auto;
+
+    }
+
+    .perfumes-individual a img {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .perfumes-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 12px;
+        margin: 5px;
+    }
+}
